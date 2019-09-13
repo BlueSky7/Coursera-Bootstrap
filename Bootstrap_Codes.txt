@@ -1,0 +1,36 @@
+Bootstrap by default Helvetica font use kore.
+Media Query=> ekta min screen size bole dile ei css class active hobe.
+Container=> eta fixed in width but media query use kore flexible kora hoy.
+
+# Cols size is determined by row automatically and row size is determined by container automatically.
+# <div class="col-4 offset-1 col-sm-2"> => offset: col-4 & col-sm-2 duitar jonnoi kaaj korbe ekhane, jehetu offset er sathe kono screen size bola hoyni!!
+# offset-md-2 => md,lg,xlg er jonno offset 2
+# col-auto => will have automatic width based on their data length.
+# ml-auto => ekdom right side e content thakbe left side e content er ag porjonto margin thakbe!
+
+#<div class="d-lg-none">screen size large holei hide hobe</div>
+#<div class="d-none d-lg-block">screen size large hole show korbe. large er kom hole hide</div>
+#<div class="d-block"> show for all the screen sizes (from xs to xl) 
+#<nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top"> => screen small hole toggle korbe, background color bootstrap er primary, top side e fixed hoye thakbe
+
+ npm  install font-awesome --save
+ npm install bootstrap-social@5.1.1 --save
+
+# class="img-fluid" => ??
+# &amp;  => '&'   
+# &nbsp; => space
+#<p class="mb-0"> => paragraph er margin-bottom zero (0) == No margin at bottom.
+# align-self-center => vertically center
+# align-items-center
+# justify-content-center => horizontally center
+# order-sm-first => sm, md, lg, xlg egulor jonno first order
+# d-flex
+# mr-3 => margin-right
+# mt-0 => margin-top
+# only col or col-sm => ???
+#<span> => 
+# badge-pill => 4 side e round shape
+
+#class="tab-pane fade show active" => show active for the first tab when the page is loaded!
+# &times; => cross sign [for example it is used in on top of a login form of a modal]
+# <label class="sr-only"> => hide(just not showing in web page) the labels.
